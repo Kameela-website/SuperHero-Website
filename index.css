@@ -1,0 +1,100 @@
+/* Setting the background image for the body */
+body {
+  background-image: url("image/comicpic.jpg");
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Fixed background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+/* Styling the main container */
+main {
+  height: auto;
+  width: 60vw;
+  margin: 4rem auto; /* Centering the main container */
+  border: rgb(243, 8, 8) solid 2px; /* Red border with 2px width */
+  border-radius: 5px; /* Rounded corners */
+  background-color: azure; /* Light blue background color */
+  position: relative; /* Relative positioning */
+}
+
+/* Styling for the autocomplete list */
+#auto-complete {
+  max-height: 300px; /* Maximum height for the autocomplete list */
+  overflow-y: auto; /* Enable vertical scroll if needed */
+}
+
+/* Styling for each item in the autocomplete list */
+#auto-complete li {
+  color: black;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Styling for the search list */
+#searchList {
+  color: rgb(97, 248, 3);
+  z-index: 1;
+  position: relative;
+  top: 0;
+  margin-top: -1.5%;
+}
+
+/* Styling for each item in the search list */
+#searchList li {
+  width: auto;
+  cursor: pointer;
+}
+
+/* Styling for the search container */
+#searchContainer {
+  max-height: auto; /* Maximum height for the search container */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-y: auto; /* Enable vertical scroll if needed */
+}
+
+/* Styling for the main content container */
+.container {
+  height: auto;
+  width: 60vw;
+  display: flex;
+  padding: 10px;
+}
+
+/* Styling for the superhero image */
+.img img {
+  height: 400px;
+  width: auto;
+  border: 1px rgb(74, 212, 50) solid; /* Green border with 1px width */
+}
+
+/* Styling for the superhero details */
+.details {
+  height: 400px;
+  width: auto;
+  color: aliceblue; /* Light blue text color */
+  font-weight: bold;
+  overflow-y: auto; /* Enable vertical scroll if needed */
+  padding-left: 15px;
+}
+
+/* Styling for powerstats */
+#powerstats {
+  color: gold; /* Gold text color */
+}
+
+/* Styling for biography */
+#bio {
+  color: blue; /* Blue text color */
+}
+
+/* Styling for the favorite button */
+#favbtn {
+  display: none; /* Initially hidden */
+}
+
+/* Styling for the logo */
+#logo {
+  color: aliceblue; /* Light blue text color */
+}

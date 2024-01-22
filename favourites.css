@@ -1,0 +1,42 @@
+/* Styling for the body */
+body {
+    background-image: url("image/comicpic.jpg"); /* Setting background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+/* Styling for the favorite list container */
+#favlistitem {
+    display: flex; /* Display items in a flex container */
+    align-items: flex-start; /* Align items at the start of the container */
+}
+
+/* Styling for the outer box */
+#outerbox {
+    border: 1px solid black; /* Border with 1px width and black color */
+    margin: 10px; /* Margin around the outer box */
+}
+
+/* Styling for the inner box */
+#innerbox {
+    margin: 10px; /* Margin around the inner box */
+}
+
+/* Styling for H5 (heading) elements */
+h5 {
+    margin-left: 10px; /* Left margin for H5 elements */
+}
+
+/* Styling for buttons */
+button {
+    margin-left: 10px; /* Left margin for buttons */
+    margin-bottom: 5px; /* Bottom margin for buttons */
+}
+
+/* Styling for the inner box image */
+#innerbox img {
+    height: 300px; /* Set image height to 300px */
+    width: 200px; /* Set image width to 200px */
+}
