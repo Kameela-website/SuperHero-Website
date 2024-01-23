@@ -1,1 +1,2 @@
-# SuperHero-Website
+# SuperHero-Websit
+Explore website to find your favorite superheroes and effortlessly add them to your personalized favorites list. Leveraging the powerful Superhero API, I've implemented JavaScript, employing methods like fetch, url, then, and catch, along with JSON.stringify, localStorage, and an array for seamless data storage. The magic happens with DOM manipulation. Thank you for joining the superhero adventure!
