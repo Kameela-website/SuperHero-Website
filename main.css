@@ -1,6 +1,6 @@
 /* Setting the background image for the body */
 body {
-  background-image: url("image/comicpic.jpg");
+  background-image: url("image/backgroundimage.jpg");
   background-size: cover; /* Cover the entire viewport */
   background-position: center; /* Center the background image */
   background-attachment: fixed; /* Fixed background image */
